@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andrew Gomes - Front-End Developer</title>
+  <meta name="description" content="Portfolio of Andrew Gomes - Front-end web developer. Projects, skills, education, and contact." />
+  <meta property="og:title" content="Andrew Gomes - Front-End Developer" />
+  <meta property="og:description" content="I build fast, accessible interfaces with React and TypeScript." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles/styles.css" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site">
+    <div class="container nav">
+      <div class="brand" aria-label="Home">
+        <div class="logo" aria-hidden="true"></div>
+        <span>Andrew Gomes</span>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container hero-wrap">
+        <div>
+          <h1 class="title">Full-Stack Developer focused on speed, accessiblity, and clean UX.</h1>
+          <p class="subtitle">I build fast, accessible interfaces with React, TypeScript, Vite, and Tailwind. Freshman at GCU, open to remote roles or teams near campus.</p>
+          <div class="actions">
+            <a class="cta" href="#projects">View Projects</a>
+            <a class="button" href="mailto:andrewgomes703@gmail.com">Email Me</a>
+            <a class="button" href="tel:+18645108711">Call/Text</a>
+            <a class="button" href="https://github.com/medkit992" target="_blank" rel="noopener">GitHub</a>
+            <a class="button" href="https://www.linkedin.com/in/andrew-gomes-a90388395" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+          <div class="badges" aria-label="Highlights">
+            <span class="badge">React + Vite</span>
+            <span class="badge">TypeScript</span>
+            <span class="badge">Tailwind</span>
+          </div>
+        </div>
+        <div class="card headshot" aria-label="Headshot placeholder">
+            <img class="headshot" src="Assets/headshot.jpg" alt="Headshot of Andrew Gomes" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container grid grid-2">
+        <div class="panel card" data-tilt>
+          <h2 class="section-title">About</h2>
+          <p class="muted">I'm Andrew, a front-end developer and freshman at Grand Canyon University in Phoenix, AZ. I'm currently building <strong>Inner Compass</strong>, a therapist-focused EHR, and I enjoy shipping small tools that make life easier.</p>
+          <p class="muted">My priorities: performance, accessibility, and maintainable design systems. I love high-signal UI, clean code, and helpful documentation.</p>
+        </div>
+        <div class="panel card" data-tilt>
+          <h3 class="section-title">Quick Facts</h3>
+          <ul class="muted">
+            <li>Based in Phoenix (UTC-7). Remote or near GCU.</li>
+            <li>Full-Stack: HTML, CSS, JavaScript, TypeScript, React, Vite, Tailwind.</li>
+            <li>Currently learning: Kotlin/Android basics.</li>
+            <li>Certs: Familiar with HIPAA-conscious development.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects">
+          <!-- EXAMPLE CARD -->
+          <article class="project card" aria-labelledby="p1-title" data-tilt>
+            <a class="thumb" href="https://inner-compass.online" target="_blank" rel="noopener" aria-label="Inner Compass - live site">
+                <img class="thumb" src="Assets/project-thumb.png" alt="Inner Compass Logo" />
+            </a>
+            <div class="content">
+              <h3 id="p1-title">Inner Compass - Therapist EHR</h3>
+              <p class="muted">Multi-module app (Billing, Files, Notes, Telehealth). Built with React + TypeScript. Stripe flow, CMS-1500 work-in-progress, and a file-system style UI.</p>
+              <div class="tags">
+                <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Vite</span><span class="tag">Tailwind</span>
+              </div>
+              <div class="actions">
+                <a class="button" href="https://inner-compass.online" target="_blank" rel="noopener">Live Test</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- COPY-PASTE PROJECT TEMPLATE (duplicate this block) -->
+          <!--
+          <article class="project card" aria-labelledby="pX-title" data-tilt>
+            <a class="thumb" href="https://YOUR_LIVE_LINK" target="_blank" rel="noopener" aria-label="PROJECT NAME - live site"></a>
+            <div class="content">
+              <h3 id="pX-title">PROJECT NAME</h3>
+              <p class="muted">One-sentence value statement: what it does + impact/result if any.</p>
+              <div class="tags">
+                <span class="tag">Tech 1</span><span class="tag">Tech 2</span><span class="tag">Tech 3</span>
+              </div>
+              <div class="actions">
+                <a class="button" href="https://YOUR_LIVE_LINK" target="_blank" rel="noopener">Live</a>
+                <a class="button" href="https://github.com/medkit992/YOUR_REPO" target="_blank" rel="noopener">Repo</a>
+              </div>
+            </div>
+          </article>
+          -->
+          <!-- /COPY-PASTE TEMPLATE -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills">
+          <div class="panel card skill" data-tilt><strong>Front-end</strong><span class="muted">HTML • JS • TS • React</span></div>
+          <div class="panel card skill" data-tilt><strong>Styling</strong><span class="muted">Tailwind • CSS</span></div>
+          <div class="panel card skill" data-tilt><strong>Build Tools</strong><span class="muted">Vite • Git/GitHub • Netlify • Firebase</span></div>
+          <div class="panel card skill" data-tilt><strong>Learning</strong><span class="muted">Kotlin • Android basics</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION (no work experience yet) -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="card panel item" data-tilt>
+            <time>2025 — 2029</time>
+            <div>
+              <strong>Grand Canyon University — B.S. Web Development</strong>
+              <p class="muted">CST-120, ENG-105, MAT-144. Clubs: Tech & Esports. Seeking paid front-end internship opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDY SKELETON (for Inner Compass) -->
+    <section id="case-study" class="section">
+      <div class="container">
+        <h2 class="section-title">Case Study: Inner Compass (EHR)</h2>
+        <div class="grid grid-2">
+          <div class="card panel" data-tilt>
+            <h3>Problem</h3>
+            <p class="muted">Therapists need simpler billing, notes, and file workflows. Existing tools feel heavy and expensive.</p>
+            <h3>Solution</h3>
+            <p class="muted">A focused EHR with clean UI, quick billing, and a Windows-style file system for organizing client docs.</p>
+          </div>
+          <div class="card panel" data-tilt>
+            <h3>Architecture</h3>
+            <ul class="muted">
+              <li>React + TypeScript + Vite</li>
+              <li>Tailwind design system</li>
+              <li>Firebase/Supabase for data</li>
+            </ul>
+            <h3>Results & Next</h3>
+            <ul class="muted">
+              <li>Working billing & files modules</li>
+              <li>In progress: CMS-1500 + telehealth</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOW section -->
+    <section id="now" class="section">
+      <div class="container">
+        <h2 class="section-title">Now</h2>
+        <div class="card panel" data-tilt>
+          <ul class="muted">
+            <li>Building: Inner Compass modules (billing/files/notes).</li>
+            <li>Learning: Kotlin + Android fundamentals.</li>
+            <li>Looking for: remote or near-campus front-end internship.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div class="card panel" data-tilt>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="muted">Best way to reach me is email or text. I'm open to front-end internships and small freelance gigs.</p>
+          <div class="list">
+            <a class="button" href="mailto:andrewgomes703@gmail.com">andrewgomes703@gmail.com</a>
+            <a class="button" href="tel:+18645108711">+1 (864) 510-8711</a>
+            <a class="button" href="https://github.com/medkit992" target="_blank" rel="noopener">github.com/medkit992</a>
+            <a class="button" href="https://www.linkedin.com/in/andrew-gomes-a90388395" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <div class="card panel" data-tilt>
+          <h3 class="section-title">What I'm looking for</h3>
+          <ul class="muted">
+            <li>Paid front-end/web or software dev internship.</li>
+            <li>Remote or within walking distance of GCU.</li>
+            <li>Teams that value accessibility and thoughtful UX.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Andrew Gomes • Built with HTML + CSS • Phoenix, AZ</div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
